@@ -1,0 +1,5 @@
+# Jetbrain Rider Cache
+.idea/
+
+# Visual Studio Code
+.vscode/

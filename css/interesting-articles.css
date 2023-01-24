@@ -1,0 +1,88 @@
+.interesting-articles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.interesting-articles__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.interesting-articles__header__title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.interesting-articles__header__description {
+    font-weight: 400;
+    font-size: 20px;
+    color: #6B7280;
+}
+
+.interesting-articles__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.interesting-articles__card {
+    width: 400px;
+    height: 520px;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 8px;
+}
+
+.interesting-articles__card__image {
+    width: 100%;
+    height: 192px;
+    object-fit: cover;
+}
+
+.interesting-articles__card__body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.interesting-articles__card__body__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.interesting-articles__card__title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #111827;
+}
+
+.interesting-articles__card__text{
+    font-weight: 400;
+    font-size: 16px;
+    color: #6B7280;
+}
+
+.interesting-articles__footer {
+    padding-top: 10px;
+}
+
+.interesting-articles__card__details {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7280;
+}
